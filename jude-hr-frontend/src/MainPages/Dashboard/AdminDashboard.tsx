@@ -24,7 +24,7 @@ const AdminDashboard = () => {
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
       <img src={kengo} className={styles.forAdminProfilePictures}></img>
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="DASHBOARDhey" subtitle="Welcome to your dashboard" />
         
         <Box>
           <Button

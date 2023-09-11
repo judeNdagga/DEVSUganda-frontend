@@ -25,7 +25,8 @@ const StatBox: React.FunctionComponent<StatProps> = (props) => {
           <Typography
             variant="h4"
             fontWeight="bold"
-            sx={{ color: colors.grey[100] }}
+            sx={{ color: colors.grey[100], fontSize: { xs: 10, sm: 16, md: 20, xl:32 } }}
+          
           >
             {title}
           </Typography>
@@ -35,7 +36,7 @@ const StatBox: React.FunctionComponent<StatProps> = (props) => {
         </Box>
       </Box>
       <Box display="flex" justifyContent="space-between" mt="2px">
-        <Typography variant="h5" sx={{ color: colors.greenAccent[500] }}>
+        <Typography sx={{ color: colors.greenAccent[500],  fontSize: { xs: 10, sm: 16, md: 20, xl: 20 } }}>
           {subtitle}
         </Typography>
         <Typography
